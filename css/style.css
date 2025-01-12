@@ -101,12 +101,12 @@ body {
   background: #5454d4;
   font-size: clamp(0.75rem, 0.583rem + 0.83vw, 1.25rem);
   padding-block: 10px;
-  padding-inline: auto;
+  padding-inline: 10px;
   border: none;
   border-radius: 5px;
   color: white;
   gap: 10px;
-  max-width: 200px;
+  max-width: 190px;
   cursor: pointer;
 }
 .build-text button a {
