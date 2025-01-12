@@ -101,7 +101,7 @@ body {
   background: #5454d4;
   font-size: clamp(0.75rem, 0.583rem + 0.83vw, 1.25rem);
   padding-block: 10px;
-  padding-inline: 20px;
+  padding-inline: auto;
   border: none;
   border-radius: 5px;
   color: white;
@@ -109,13 +109,16 @@ body {
   max-width: 200px;
   cursor: pointer;
 }
+.build-text button a {
+  background: none;
+}
 .build-text button:hover {
   transform: scale(1, 1);
   transition: 0, 5 ms;
   background: rgba(0, 0, 0, 0.5);
   background: transparent;
   border: 2px solid #fff;
-  a{
+  ion-icon{
     transform: rotate(320deg);
     transition: 1s;
     color: white;
